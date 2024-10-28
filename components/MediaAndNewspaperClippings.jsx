@@ -83,7 +83,8 @@ function MediaAndNewspaperClippings() {
               <div style={{
                 display: 'flex',
                 gap: '20px',
-                overflowX: 'auto'
+                overflowX: 'auto',
+                overflowY: 'hidden'
               }}>
                 {images.map((image, index) => (
                   <img 

@@ -54,7 +54,7 @@
   
   .content-container {
     flex: 1;
-    overflow-y: auto; /* Enable vertical scrolling */
+    /* overflow-y: auto;  */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@
     border-radius: 10px;
     box-sizing: border-box; /* Include padding and border in width calculation */
     max-height: 250px; /* Set fixed height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    /* overflow-y: auto;  */
     padding-bottom: 60px; /* Add space for the button */
   
     flex-grow: 1; /* Allow content to grow and take up available space */

@@ -356,7 +356,7 @@ function NavigationBar() {
                                             onMouseOver={() => setMediaHovered(true)}
                                             onMouseLeave={() => setMediaHovered(false)}
                                         >
-                                            Media <span style={{ color: '#db8204' }}><GoTriangleDown /></span>
+                                            Media <span style={{ color: '#db8204' }}></span>
                                             {isMediaHovered && (
                                                 <div className='mediaDropDown'><div style={{height:'1rem', width:'100%', flexOrder:'1'}}></div>
                                                      <div className='triangle mediaTrianglePosition'><img className='triangleImage' src={triangleImage} alt="" /></div>
@@ -378,7 +378,7 @@ function NavigationBar() {
                                             className='navLink'
                                             onMouseOver={() => setProcurementHovered(true)}
                                             onMouseLeave={() => setProcurementHovered(false)}>
-                                            Procurement<span style={{ color: '#db8204' }}><GoTriangleDown /></span>
+                                            Procurement<span style={{ color: '#db8204' }}></span>
                                             {isProcurementHovered && (
 
                                                 <div className='procurementDropDown'><div style={{height:'1rem', width:'100%', flexOrder:'1'}}></div>
@@ -407,7 +407,7 @@ function NavigationBar() {
                                         <li className='navLink'
                                             onMouseOver={() => setSTUHovered(true)}
                                             onMouseLeave={() => setSTUHovered(false)}>
-                                            STU<span style={{ color: '#db8204' }}><GoTriangleDown /></span>
+                                            STU<span style={{ color: '#db8204' }}></span>
                                             {isSTUHovered && (
 
                                                 <div className='stuDropDown'><div style={{height:'1rem', width:'100%', flexOrder:'1'}}></div>
@@ -441,7 +441,7 @@ function NavigationBar() {
                                         <li className='navLink'
                                             onMouseOver={() => setEmployeeHovered(true)}
                                             onMouseLeave={() => setEmployeeHovered(false)}>
-                                            Employee<span style={{ color: '#db8204' }}><GoTriangleDown /></span>
+                                            Employee<span style={{ color: '#db8204' }}></span>
                                             {isEmployeeHovered && (
 
                                                 <div className='employeeDropDown'><div style={{height:'1rem', width:'100%', flexOrder:'1'}}></div>
