@@ -5,70 +5,70 @@ const OtherUtilities = () => {
   const icons = [
     
     {
-      src: 'images/logoGoB.png',
+      src: 'images/OtherUtilities/logoGoB.png',
       alt: 'ENERGY DEPT.',
       name: 'ENERGY DEPT.',
     },
     {
-      src: 'images/logoBSPHCL.png',
+      src: 'images/OtherUtilities/logoBSPHCL.png',
       alt: 'BSPHCL',
       name: 'BSPHCL',
     },
     {
-      src: 'images/logoBSPGCL.png',
+      src: 'images/OtherUtilities/logoBSPGCL.png',
       alt: 'BSPGCL',
       name: 'BSPGCL',
     },
     {
-      src: 'images/logoNBPDCL.png',
+      src: 'images/OtherUtilities/logoNBPDCL.png',
       alt: 'NBPDCL',
       name: 'NBPDCL',
     },
     {
-      src: 'images/logoSBPDCL.png',
+      src: 'images/OtherUtilities/logoSBPDCL.png',
       alt: 'SBPDCL',
       name: 'SBPDCL',
     },
     {
-      src: 'images/logoBSPTCL.png',
+      src: 'images/OtherUtilities/logoBSPTCL.png',
       alt: 'BIHAR SLDC',
       name: 'BIHAR SLDC',
     },
    
     {
-      src: 'images/logoBERC.png',
+      src: 'images/OtherUtilities/logoBERC.png',
       alt: 'BERC',
       name: 'BERC',
     },
     {
-      src: 'images/logoCERC.png',
+      src: 'images/OtherUtilities/logoCERC.png',
       alt: 'CERC',
       name: 'CERC',
     },
     {
-      src: 'images/logoCEA.png',
+      src: 'images/OtherUtilities/logoCEA.png',
       alt: 'CEA',
       name: 'CEA',
     },
     {
-      src: 'images/logoERPC.png',
+      src: 'images/OtherUtilities/logoERPC.png',
       alt: 'ERPC',
       name: 'ERPC',
     },
     {
-      src: 'images/logoPOSOCO.png',
+      src: 'images/OtherUtilities/logoPOSOCO.png',
       alt: 'NLDC',
       name: 'NLDC',
     },
    
     {
-      src: 'images/logoPOSOCO.png',
+      src: 'images/OtherUtilities/logoPOSOCO.png',
       alt: 'ERLDC',
       name: 'ERLDC',
     },
   
     {
-      src: 'images/logoPowergrid.png',
+      src: 'images/OtherUtilities/logoPowergrid.png',
       alt: 'POWERGRID',
       name: 'POWERGRID',
     }   

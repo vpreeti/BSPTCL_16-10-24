@@ -18,13 +18,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-image: url(../../public/images/Ringtest/image_5.jpg); */
-  /* background-image: url(../../public/images/blueBlackground1.jpg); */
-  background-image: url(../../public/images/Ringtest/image_5.jpg);
+  background-image: url(../../public/images/PhotoGallery/GalleryImage.jpg);
   background-repeat: no-repeat;
   background-size: cover; /* Cover the container, cropping if necessary */
   background-position: center; /* Center the image */
-  /* background-color: rgba(231, 6, 6, 0.7); Background color with transparency */
+
   opacity: 0.9; /*Adjust opacity of the background image  */
   z-index: -1; /*Place the overlay behind the content */
   

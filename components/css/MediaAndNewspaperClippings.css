@@ -143,6 +143,25 @@
     margin: 0 15px;
     color: #000;
   }
+
+/* MediaAndNewspaperClippings.css */
+
+
+/* MediaAndNewspaperClippings.css */
+.image {
+  width: 200px; /* Fixed width for uniformity */
+  height: 230px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images maintain aspect ratio and fill the area */
+  border-radius: 5px; /* Adds rounded corners */
+  margin-right: 20px; /* Adds space between images */
+    flex-wrap: 'wrap'; 
+  overflow-x: 'hidden';
+  /* border: 2px solid rgb(12, 12, 12);  */
+}
+
+
+
+
   
   /************************************************     Responsive code     **********************************************************/
   @media  (max-width: 1194px) {

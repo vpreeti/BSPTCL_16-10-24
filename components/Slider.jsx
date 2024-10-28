@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './css/slider.css';
-import sliderImg1 from '../public/images/Control Room at Mahnar.jpg';
-import sliderImg2 from '../public/images/Switchyard at Areraj.jpg';
-import sliderImg3 from '../public/images/Switchyard at Bhabhua.jpg';
+import sliderImg1 from '../public/images/SliderImages/Control Room at Mahnar.jpg';
+import sliderImg2 from '../public/images/SliderImages/Switchyard at Areraj.jpg';
+import sliderImg3 from '../public/images/SliderImages/Switchyard at Bhabhua.jpg';
 
 
 function Slider() {

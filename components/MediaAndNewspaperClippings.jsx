@@ -2,20 +2,30 @@ import React, { useState, useEffect } from 'react';
 import '../components/css/MediaAndNewspaperClippings.css';
 
 function MediaAndNewspaperClippings() {
-  const [activeButtonLeft, setactiveButtonLeft] = useState('ActiveTenders');
-  const [activeButtonRight, setactiveButtonRight] = useState('OfficeOrders');
-  const [showActiveTendersL, setshowActiveTendersL] = useState(true);
-  const [showOfficeOrdersR, setshowOfficeOrdersR] = useState(true);
+  const [activeButtonLeft, setactiveButtonLeft] = useState('SocialMedia');
+  const [activeButtonRight, setactiveButtonRight] = useState('NewspaperClippings');
+  const [showSocialMediaL, setshowSocialMediaL] = useState(true);
+  const [showNewspaperClippingsR, setshowNewspaperClippingsR] = useState(true);
 
   const handleButtonClick = (section, type) => {
     if (section === 'left') {
-      setshowActiveTendersL(type === 'ActiveTenders');
+      setshowSocialMediaL(type === 'SocialMedia');
       setactiveButtonLeft(type);
     } else {
-      setshowOfficeOrdersR(type === 'OfficeOrders');
+      setshowNewspaperClippingsR(type === 'NewspaperClippings');
       setactiveButtonRight(type);
     }
   };
+
+  const images = [
+    '../public/images/NewspaperClippings/n1.jpg',
+    '../public/images/NewspaperClippings/n2.jpg',
+    '../public/images/NewspaperClippings/n3.jpg',
+    '../public/images/NewspaperClippings/n4.jpg',
+    '../public/images/NewspaperClippings/n5.jpg',
+    '../public/images/NewspaperClippings/n6.jpg',
+    '../public/images/NewspaperClippings/n7.jpg'
+  ];
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -30,27 +40,27 @@ function MediaAndNewspaperClippings() {
       <div className="section">
         <div className="button-container">
           <button
-            onClick={() => handleButtonClick('left', 'ActiveTenders')}
-            className={`button ${activeButtonLeft === 'ActiveTenders' ? 'active' : ''}`}
+            onClick={() => handleButtonClick('left', 'SocialMedia')}
+            className={`button ${activeButtonLeft === 'SocialMedia' ? 'active' : ''}`}
           >
             Social Media
           </button>
         </div>
         <div className="content-container">
-          {showActiveTendersL && (
+          {showSocialMediaL && (
             <div className="content">
               <div className="twitter-feed">
                 <a
                   className="twitter-timeline"
-                  // href="https://twitter.com/seva_bsptcl"
                   href="https://twitter.com/narendramodi"
+                  // href="https://twitter.com/seva_bsptcl"
                   data-width="1000"
                   data-height="600"
                   data-theme="light"
                 >
-                  {/* Loading tweets... */}
                 </a>
               </div>
+              <button className="view-more-button">View More</button>
             </div>
           )}
         </div>
@@ -61,29 +71,28 @@ function MediaAndNewspaperClippings() {
       <div className="section">
         <div className="button-container">
           <button
-            onClick={() => handleButtonClick('right', 'OfficeOrders')}
-            className={`button ${activeButtonRight === 'OfficeOrders' ? 'active' : ''}`}
+            onClick={() => handleButtonClick('right', 'NewspaperClippings')}
+            className={`button ${activeButtonRight === 'NewspaperClippings' ? 'active' : ''}`}
           >
             In the News
           </button>
         </div>
         <div className="content-container">
-          {showOfficeOrdersR && (
+          {showNewspaperClippingsR && (
             <div className="content">
-              <div className="rowData">
-                <div className="document-icon">
-                  <img src="public/images/doc.png" alt="Document Icon" />
-                </div>
-                <div className="details-header">
-                  <h6>
-                    Regarding National Apprenticeship Training Scheme (NATS) at BSPTCL vide OO no 52 dated 19.01.2024
-                  </h6>
-                  <div className="details-container">
-                    <p>Department: HR</p>
-                    <p className="verticalSeparator">|</p>
-                    <p>Issue Date: Jul 24, 2024</p>
-                  </div>
-                </div>
+              <div style={{
+                display: 'flex',
+                gap: '20px',
+                overflowX: 'auto'
+              }}>
+                {images.map((image, index) => (
+                  <img 
+                    key={index} 
+                    src={image} 
+                    alt={`Image ${index + 1}`} 
+                    className="image"
+                  />
+                ))}
               </div>
               <button className="view-more-button">View More</button>
             </div>
