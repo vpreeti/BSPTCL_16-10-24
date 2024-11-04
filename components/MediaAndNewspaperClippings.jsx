@@ -52,8 +52,10 @@ function MediaAndNewspaperClippings() {
               <div className="twitter-feed">
                 <a
                   className="twitter-timeline"
-                  href="https://twitter.com/narendramodi"
+                  // href="https://twitter.com/narendramodi"
+                  href="https://twitter.com/BiharEnergy"
                   // href="https://twitter.com/seva_bsptcl"
+
                   data-width="1000"
                   data-height="600"
                   data-theme="light"
