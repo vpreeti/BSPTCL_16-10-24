@@ -152,6 +152,7 @@
     text-decoration: none;
     padding-left: 1.3rem;
     padding: 0.5rem;
+    border-bottom: 1px solid #504d68;
 }
 
 .navLink.hamburgerMenu1 {
@@ -223,6 +224,7 @@
     flex-direction: column;
     color: black ;
    z-index: 100;
+  
 
 }
 Navbar , Nav{
@@ -254,6 +256,7 @@ Navbar , Nav{
         5px 3px 5px -20px rgba(194, 197, 233, 0.411); /* Right shadow starting after 2px */
     z-index: 1;
     border-radius: 0 !important;
+
 }
 .triangle {
     font-weight: 900 !important; 

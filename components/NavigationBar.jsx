@@ -508,35 +508,35 @@ function NavigationBar() {
                                                         <div className="button-container1">
                                                             <div className="row mb-3">
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 1Button 1 qwerty 123 qwerty</Button>
+                                                                    <Button className="custom-button">Career</Button>
                                                                 </div>
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 2</Button>
+                                                                    <Button className="custom-button">IT Initiatives</Button>
                                                                 </div>
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 3</Button>
-                                                                </div>
-                                                            </div>
-                                                            <div className="row mb-3">
-                                                                <div className="col">
-                                                                    <Button className="custom-button">Button 4</Button>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <Button className="custom-button">Button 5</Button>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <Button className="custom-button">Button 6</Button>
+                                                                    <Button className="custom-button">Power Map</Button>
                                                                 </div>
                                                             </div>
                                                             <div className="row mb-3">
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 7</Button>
+                                                                    <Button className="custom-button">Upcoming Infrastructure</Button>
                                                                 </div>
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 8</Button>
+                                                                    <Button className="custom-button">e-Magazine</Button>
                                                                 </div>
                                                                 <div className="col">
-                                                                    <Button className="custom-button">Button 9</Button>
+                                                                    <Button className="custom-button">Photo Gallery</Button>
+                                                                </div>
+                                                            </div>
+                                                            <div className="row mb-3">
+                                                                <div className="col">
+                                                                    <Button className="custom-button">Policy</Button>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <Button className="custom-button">Tenders</Button>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <Button className="custom-button">GeM</Button>
                                                                 </div>
                                                             </div>
                                                         </div>
