@@ -423,14 +423,14 @@ function NavigationBar() {
                                                                         < Link className='dropdownMenuText'>Grid Code of Bihar</Link>
                                                                         < Link className='dropdownMenuText'>Grid Code of India</Link>
                                                                         < Link className='dropdownMenuText'>Electricity Act, 2003</Link>
-                                                                        < Link className='dropdownMenuText'>other regulation 1</Link>
-                                                                        < Link className='dropdownMenuText'>other regulation 2</Link>
+                                                                        < Link className='dropdownMenuText'>Other regulation 1</Link>
+                                                                        < Link className='dropdownMenuText'>Other regulation 2</Link>
                                                                     </div>
                                                                 </div>
 
                                                             )}
                                                         </Link>
-                                                        < Link to="/tariff-petitons" className='dropdownMenuText'>Tariff Petitons</Link>
+                                                        < Link to="/tariff-petitons" className='dropdownMenuText'>Tariff Petitions</Link>
                                                         < Link className='dropdownMenuText' >Open Access</Link>
                                                     </div>
                                                 </div>
@@ -457,7 +457,7 @@ function NavigationBar() {
                                                         < Link to="https://medical.bsphcl.co.in/" className='dropdownMenuText' target="_blank"
                                                             rel="noopener noreferrer" >Mediclaim</Link>
                                                         < Link to="https://ess.bihar.gov.in:44300/irj/portal" className='dropdownMenuText' target="_blank"
-                                                            rel="noopener noreferrer" >ESS\MSS</Link>
+                                                            rel="noopener noreferrer" >ESS/MSS</Link>
                                                         < Link to="http://125.16.220.20:8077/Form16" className='dropdownMenuText' target="_blank"
                                                             rel="noopener noreferrer" >Form 16</Link>
                                                         <Link
